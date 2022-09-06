@@ -29,3 +29,26 @@ print("min: ", min(nums)) # 최솟값 출력
 max:  7
 min:  1
 """
+
+#4----------------------
+interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+print("\n".join(interest)) # join 메소드> 리스트를 문자열로 붙일 수 있다.
+
+"""
+<결과값>
+삼성전자
+LG전자
+Naver
+SK하이닉스
+미래에셋대우
+"""
+
+#5----------------------
+string = "삼성전자/LG전자/Naver"
+interest = string.split("/") # split> 문자열을 나눌 때 사용한다.
+print(interest)
+
+"""
+<결과값>
+['삼성전자', 'LG전자', 'Naver']
+"""
